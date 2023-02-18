@@ -21,6 +21,7 @@
     "bulma": "^0.9.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "vercel": "^28.16.2",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {

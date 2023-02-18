@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { Creditcard } from '../card-form/card-form.component';
 
 
@@ -12,7 +12,6 @@ export class CreditcardComponent {
 
   onCardValuesChange (values: Object) {
     this.cardValues = values as Creditcard;
-    console.log('Parent', this.cardValues.name);
   }
 
 }
