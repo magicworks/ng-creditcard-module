@@ -1,0 +1,13 @@
+<div class="columns">
+  <div class="column">
+    <app-card-dispay
+      [name]="cardValues.name"
+      [cardNumber]="cardValues.cardNumber"
+      [expiration]="cardValues.expiration"
+    ></app-card-dispay>
+  </div>
+  <div class="column">
+    <app-card-form (formValuesInput)="onCardValuesChange($event)">
+    </app-card-form>
+  </div>
+</div>
